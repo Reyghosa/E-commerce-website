@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('/img/boutique-ga5ede3c08_1280.jpg');
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.payment{
+    width: 500px;
+    height: 700px;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.name{
+    font-size: 20px;
+}
+
+h1.head{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+.container{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+   
+}
+
+input{
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    width: 500px;
+    height: 30px;
+    padding: 20px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
+input::placeholder{
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+@media screen {
+    
+}
